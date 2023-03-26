@@ -5,7 +5,7 @@ function onLoginBtnClick() {
     console.log('hello', loginInput.value);
 }
 
-
+loginButton.addEventListener('click', onLoginBtnClick);
 
 
 
